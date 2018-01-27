@@ -1,0 +1,8 @@
+@REM To install, run:
+@REM Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install -y `
+    arduino cmder cura git visualstudiocode `
+    VisualStudio2017Community firefox nodejs putty steam
+
+@REM Broken: autodesk-fusion360 kicad 
